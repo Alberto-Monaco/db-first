@@ -1,11 +1,11 @@
 -- Table structure Auto Usate
 
 id | INT AUTO_INCREMENT PRIMARY KEY (UNIQUE NOT NULL)
-targa | CHAR(7) UNIQUE NOT FULL,
-telaio | VARCHAR(30) UNIQUE NOT FULL,
+targa | CHAR(7) UNIQUE NOT NULL,
+telaio | VARCHAR(30) UNIQUE NOT NULL,
 marca | VARCHAR(30) NOT NULL,
 modello | VARCHAR(50) NOT NULL,
-cilindrata | SMALLINT NOT FULL,
+cilindrata | SMALLINT NOT NULL,
 anno | YEAR | NOT NULL,
 chilometraggio | INT NOT NULL,
 prezzo | FLOAT(10, 2) NULL,
