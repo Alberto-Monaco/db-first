@@ -20,7 +20,6 @@ n_proprietari | TINYINT NULL,
 prezzo_listino | FLOAT(10,2) NULL,
 prezzo_finale | FLOAT(10,2) NULL,
 foto_url | TEXT(500) NULL,
-disponibilità | TINYINT(1) DEFAULT(0)
 
 js
 const autoUsate = [
